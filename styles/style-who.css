@@ -1,0 +1,40 @@
+.origem {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 0 20px 0;
+}
+
+/* =~=~=~=~ Meia seção =~=~=~=~ */
+.separar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info p {
+    padding: 10px;
+}
+
+.social {
+    display: grid;
+    place-items: center;
+}
+
+.social img {
+    height: 100px;
+    width: 100px;
+}
+
+.social section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
