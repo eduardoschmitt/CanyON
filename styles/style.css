@@ -20,6 +20,7 @@ body {
     grid-template-columns: 1fr 1fr;
     place-items: center;
     background-color: rgb(129, 185, 138);
+    box-shadow: 0 0 1px rgb(40, 40, 40);
 }
 
 .cabecalho img {
@@ -59,7 +60,8 @@ li a {
 
 /* =~=~=~=~ Escopo Lateral =~=~=~=~ */
 .introducao h1{
-    font-size: 100px;
+    font-size: 50px;
+    color: rgb(129, 185, 138);
 }
 
 .intro-frase {
