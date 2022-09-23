@@ -1,3 +1,7 @@
+main {
+    padding: 25px 10px;
+}
+
 .origem {
     display: grid;
     place-items: center;
