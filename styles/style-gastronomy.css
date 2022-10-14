@@ -12,3 +12,7 @@ main h1{
     grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
+
+.organiza-gastronomia img {
+    width: 90%;
+}
