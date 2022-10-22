@@ -2,11 +2,25 @@ main {
     padding: 25px 10px;
 }
 
+h1 {
+    color: rgb(129, 185, 138);
+    font-size: 30px;
+}
+
+h2 {
+    color: rgb(129, 185, 138);
+    font-size: 20px;
+}
+
 .origem {
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr;
     padding: 0 0 20px 0;
+}
+
+.origem img{
+    border-radius: 100px;
 }
 
 /* =~=~=~=~ Meia seção =~=~=~=~ */
@@ -22,6 +36,29 @@ main {
     grid-template-columns: 1fr 1fr;
 }
 
+.info img {
+    width: 80%;
+    border-radius: 100px;
+}
+
+@media only screen and (max-height: 600px) {
+    .origem{
+        grid-template-columns: 1fr;
+    }
+    
+    .info {
+        grid-template-columns: 1fr;
+    }
+
+    .separar{
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        width: 40%;
+    }
+  }
+
 .info p {
     padding: 10px;
 }
@@ -34,11 +71,17 @@ main {
 .social img {
     height: 100px;
     width: 100px;
+    border-radius: 300px;
 }
 
 .social section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+}
+
+.social a{
+    text-decoration: none;
+    color: green;
 }
 

@@ -1,5 +1,8 @@
 main h1{
     padding: 25px 20px;
+    color: rgb(129, 185, 138);
+    font-size: 50px;
+    animation: slidein 10s;
 }
 
 .organiza-gastronomia {
@@ -15,4 +18,26 @@ main h1{
 
 .organiza-gastronomia img {
     width: 90%;
+}
+
+img {
+    border-radius: 100px;
+}
+
+section p {
+    display: grid;
+    place-items: center;
+}
+
+@keyframes slidein {
+    to {
+        color: rgb(129, 185, 138);
+        font-size: 55px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .organiza-gastronomia section {
+        grid-template-columns: 1fr;
+    }    
 }
