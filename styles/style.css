@@ -84,12 +84,10 @@ footer {
     color: white;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 401px) and (max-width: 1000px) {
     li{
-        padding: 30px;
-        font-size: 30px;
-        display: grid;
-        place-items: center;
+        padding: 30px 0;
+        font-size: 100%;
     }
 
     .principal{
@@ -98,10 +96,43 @@ footer {
 
     .cabecalho img {
         width: 70%;
-        padding: 10px;
+        padding: 10px 0;
     }
 
     .introducao img {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    li{
+        padding: 30px 0;
+        font-size: 100%;
+    }
+
+    .principal{
+        grid-template-columns: 1fr;
+    }
+
+    .cabecalho img {
+        width: 70%;
+        padding: 10px 0;
+    }
+
+    .introducao img {
+        width: 100%;
+    }
+
+    .cabecalho {
+        grid-template-columns: 1fr;
+    }
+
+    .introducao h1{
+        font-size: 25px;
+    }
+    
+    .intro-frase {
+        font-size: 25px;
+    }
+}
+

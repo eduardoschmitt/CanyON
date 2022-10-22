@@ -41,7 +41,7 @@ h2 {
     border-radius: 100px;
 }
 
-@media only screen and (max-height: 600px) {
+@media only screen and (min-height: 600px) {
     .origem{
         grid-template-columns: 1fr;
     }
@@ -57,6 +57,7 @@ h2 {
     img {
         width: 40%;
     }
+
   }
 
 .info p {
